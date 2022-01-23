@@ -1,4 +1,4 @@
-# RESTAPI_Go
+# Book Database
 ## Tech stack :
 - Go 
 - Postgres
