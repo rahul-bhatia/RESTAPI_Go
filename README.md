@@ -2,6 +2,7 @@
 ## Tech stack :
 - Go 
 - Postgres
+- mux
 
 ## Functionalities
 - View Books  : /api/books `GET`
@@ -9,6 +10,11 @@
 - Delete Book : /api/books/{id} `DELETE`
 - Create Book : /api/books `POST`
   - Body
-    - Isbn : Int
-    - Title : String
-    - Author : String
+  - 
+  ```json
+    {
+      Isbn : Int
+      Title : String
+      Author : String
+     }
+  ```
