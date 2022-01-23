@@ -10,7 +10,6 @@
 - Delete Book : /api/books/{id} `DELETE`
 - Create Book : /api/books `POST`
   - Body
-  - 
   ```json
     {
       Isbn : Int
